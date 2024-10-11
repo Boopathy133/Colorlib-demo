@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import BreadCrums from './Components/BreadCrums/BreadCrums';
+import CapitalShop from './Components/CapitalShop/CapitalShop';
+import FindMore from './Components/FindMore/FindMore';
+import Navbar from './Components/Navbar/Navbar';
+import PricingCapitalShop from './Components/PricingcapitalShop/PricingCapitalShop';
+import ShareButton from './Components/ShareButtons/ShareButton';
+import SocialMediaIcon from './Components/SocialMedia/SocialMediaIcon';
+import TemplateDetails from './Components/TemplateDetails/TemplateDetails';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SocialMediaIcon />
+      <Navbar />
+      <BreadCrums />
+      <CapitalShop />
+      <TemplateDetails />
+      <PricingCapitalShop />
+      <ShareButton />
+      <FindMore/>
     </div>
   );
 }

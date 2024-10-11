@@ -1,0 +1,27 @@
+.breadCrums{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.breadCrums-left{
+    padding-left: 90px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.breadCrums-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 55px;
+}
+.breadCrums-right-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.breadCrums-right-text:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+}

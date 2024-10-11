@@ -1,0 +1,27 @@
+.fidMore-container{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 105px;
+    justify-content: space-between;
+    padding-right: 10%;
+    background-color:rgba(53, 52, 52, 0.336);
+    padding-bottom: 25px;
+    align-items: center;
+}
+.fidMore-container .text{
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(53, 52, 52);
+}
+.fidMore-container .findMore-button button{
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(119, 119, 199);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}

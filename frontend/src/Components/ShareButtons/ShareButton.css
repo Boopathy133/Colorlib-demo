@@ -1,0 +1,47 @@
+.ShareButtons{
+    padding-left: 105px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 19px;
+    padding-top: 20px;
+    align-items: center;
+}
+.facebook-button{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    background-color: rgb(32, 32, 235);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.twitter-button{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    background-color: rgb(69, 69, 218);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pinterest-button{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    background-color: rgb(253, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.linkedIn-button{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
+    background-color: rgba(26, 26, 122, 0.733);
+    border-radius: 5px;
+    cursor: pointer;
+}

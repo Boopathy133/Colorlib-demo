@@ -1,0 +1,33 @@
+.pricingcapital{
+    padding-top: 70px;
+    padding-left: 105px;
+    padding-right: 90px;
+    padding-bottom: 50px;
+}
+.pricingcapital-topic{
+    padding-bottom: 25px;
+}
+.pricingcapital-topic p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.pricingcapital-containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.pricingcapital-container2{
+    border: 1px solid orange;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.pricingcapital-container2 .topic p{
+    align-items: center;
+    justify-content: center;
+    /* color: red; */
+    /* padding-left: 30%; */
+}
+.pricingcapital-container2 hr{
+    padding-left: 20px;
+    padding-right: 20px;
+}

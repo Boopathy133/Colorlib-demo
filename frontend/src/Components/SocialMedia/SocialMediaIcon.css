@@ -1,0 +1,41 @@
+.socialmedia-icon-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: rgb(75, 134, 245);
+}
+.socialmedia-icon-left{
+    display: flex;
+    gap: 2px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: bold;
+}
+.socialmedia-icon-right{
+    display: flex;
+    gap: 15px;
+    color: white;
+    cursor: pointer;
+}
+.socialmedia-icon-right .twitter:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .facebook:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .instagram:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .linkedIn:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .youTube:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .feeds:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
+.socialmedia-icon-right .github:hover{
+    color: rgba(128, 128, 128, 0.432);
+}
